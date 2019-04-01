@@ -25,7 +25,7 @@ class GiftListContainer extends Component{
         this.setState({ query })
     }
 
-    
+
     onHandleSubmit=(event)=>{
         event.preventDefault();
         this.fetchGifs()
